@@ -141,6 +141,19 @@
   margin-top: 0.7rem;
 }
 
+.project-link {
+  display: inline-block;
+  margin-top: 0.85rem;
+  color: #1d4ed8;
+  font-weight: 600;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-link:hover {
+  color: #1e3a8a;
+  transform: translateX(2px);
+}
+
 .skills-wrap {
   display: flex;
   flex-wrap: wrap;

@@ -11,6 +11,16 @@ function Projects({ projects }) {
             <p className="project-tech">
               <strong>Technologies:</strong> {project.technologies.join(', ')}
             </p>
+            {project.link && (
+              <a
+                className="project-link"
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Project
+              </a>
+            )}
           </article>
         ))}
       </div>

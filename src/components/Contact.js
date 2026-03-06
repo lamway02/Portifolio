@@ -19,6 +19,12 @@ function Contact() {
           </a>
         </li>
         <li>
+          <span>GitHub:</span>{' '}
+          <a href="https://github.com/lamway02" target="_blank" rel="noreferrer">
+            github.com/lamway02
+          </a>
+        </li>
+        <li>
           <span>Phone:</span> +255 694 893 936
         </li>
       </ul>

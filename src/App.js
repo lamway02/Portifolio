@@ -11,6 +11,7 @@ const projects = [
     description:
       'A real-world point-of-sale platform for managing products, stock, sales, and reporting with a practical workflow for daily business operations.',
     technologies: ['React.js', 'Node.js', 'MySQL'],
+    link: 'https://kogpos.co.tz/login',
   },
   {
     name: 'Hotel Booking System',
